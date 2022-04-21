@@ -56,3 +56,22 @@ class ContryCode
     code.hash
   end
 end
+
+
+
+
+class Second
+  def initialize(player, uniform_number)
+    @player = player
+    @uniform_number = uniform_number
+  end
+end
+
+module Clock
+  class Second
+    def initialize(digits)
+      @digits = digits
+      @base_ball_second = ::Second.new('Alice', 123)
+    end
+  end
+end
